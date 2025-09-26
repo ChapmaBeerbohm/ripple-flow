@@ -1,6 +1,6 @@
 module github.com/0xPolygon/polygon-edge
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/btcsuite/btcd v0.22.1
@@ -68,7 +68,7 @@ require (
 	github.com/quasilyte/go-ruleguard v0.4.0
 	github.com/quasilyte/go-ruleguard/dsl v0.3.22
 	github.com/sethvargo/go-retry v0.2.4
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.17.0
 	google.golang.org/genproto v0.0.0-20240401170217-c3f982113cda
 	gopkg.in/DataDog/dd-trace-go.v1 v1.63.1
 	pgregory.net/rapid v1.1.0
